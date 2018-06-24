@@ -1,7 +1,7 @@
 octave-app
 ============
 
-The [Octave.app](https://octave-app.github.io) distribution. See [our web site](https://octave-app.github.io) for info.
+The [Octave.app](https://octave-app.org) distribution. See [our web site](https://octave-app.org) for info.
 
 This repo contains the releases of Octave.app.
 
