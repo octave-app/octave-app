@@ -1,6 +1,16 @@
 Octave.app Detailed News
 ========================
 
+###  2018-06-25 00:39
+
+Octave 4.4.0-beta2 is built and out.
+All the test suite failures are resolved.
+
+Known bugs:
+* [#33 Test failures during "make check"](https://github.com/octave-app/octave-app-bundler/issues/33)
+* [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
+
+
 ###  2018-06-21 09:40
 
 Octave 4.4.0-beta1 is built and out.
