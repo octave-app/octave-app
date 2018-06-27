@@ -1,9 +1,20 @@
 Octave.app Detailed News
 ========================
 
+###  2018-06-27 10:23
+
+Octave.app 4.4.0-beta3 is out.
+
+Fixes:
+* [#33 Test failures during "make check"](https://github.com/octave-app/octave-app-bundler/issues/33)
+* [#19 Double icons in the Dock](https://github.com/octave-app/octave-app-bundler/issues/19)
+
+Known bugs:
+* [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
+
 ###  2018-06-25 00:39
 
-Octave 4.4.0-beta2 is built and out.
+Octave.app 4.4.0-beta2 is built and out.
 All the test suite failures are resolved.
 
 Known bugs:
@@ -13,7 +24,7 @@ Known bugs:
 
 ###  2018-06-21 09:40
 
-Octave 4.4.0-beta1 is built and out.
+Octave.app 4.4.0-beta1 is built and out.
 This one is known to have issues: it crashes during the test suite.
 
 ###  2018-06-18 01:16
