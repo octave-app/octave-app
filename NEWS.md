@@ -1,6 +1,18 @@
 Octave.app Detailed News
 ========================
 
+###  2018-07-05 06:53
+
+Octave.app 4.4.0-beta4 is out.
+
+The app is now signed, so you can run it by just double-clicking it.
+
+Fixes:
+* [#34 Sign the app](https://github.com/octave-app/octave-app-bundler/issues/34)
+
+Known bugs:
+* [#21 Intermittent hang during test suite in GUI](https://github.com/octave-app/octave-app-bundler/issues/21)
+
 ###  2018-06-27 10:23
 
 Octave.app 4.4.0-beta3 is out.
