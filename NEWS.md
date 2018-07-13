@@ -1,5 +1,11 @@
-Octave.app Detailed News
+Octave.app News
 ========================
+
+###  2018-07-12 22:24
+
+Octave.app 4.4.0-beta5 is out.
+
+This is an attempt to fix the issues with code signing and symbolic links.
 
 ###  2018-07-05 06:53
 
