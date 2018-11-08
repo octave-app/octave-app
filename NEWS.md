@@ -1,6 +1,12 @@
 Octave.app News
 ========================
 
+###  2018-11-07 20:59
+
+Octave.app 4.4.0-rc2 (Release Candidate 2) is out.
+
+This is the same build as beta10, just nominated as a release candidate.
+
 ###  2018-10-16 00:49
 
 Octave.app 4.4.0-beta10, superceding RC1, is out.
