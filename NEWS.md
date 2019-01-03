@@ -1,6 +1,10 @@
 Octave.app News
 ========================
 
+###  2019-01-02 21:22
+
+Octave.app 4.4.1 beta2 is out.
+
 ###  2018-12-05 01:36
 
 Octave.app 4.4.1 beta1 is out.
