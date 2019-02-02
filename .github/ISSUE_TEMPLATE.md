@@ -1,6 +1,6 @@
 ## Description
 
-Replace this with a description of the problem, including:
+Replace this section with a description of the problem, including:
   * What you did
   * What you expected to happen
   * What actually happened
