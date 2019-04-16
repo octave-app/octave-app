@@ -1,6 +1,10 @@
 Octave.app News
 ========================
 
+###  2019-04-15 22:04
+
+Octave.app [5.1.0 beta3](https://github.com/octave-app/octave-app/releases/tag/v5.1.0-beta3) is out.
+
 ###  2019-03-20 17:45
 
 Octave.app [5.1.0 beta2](https://github.com/octave-app/octave-app/releases/tag/v5.1.0-beta2) is out.
