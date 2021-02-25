@@ -2,6 +2,10 @@
 
 ## News
 
+### 2021-02-25 11:00
+
+Octave.app [6.2.0 beta1](https://github.com/octave-app/octave-app/releases/tag/v6.2.0-beta1) is out.
+
 ### 2021-01-22 18:13
 
 Octave.app [6.1.0](https://github.com/octave-app/octave-app/releases/tag/v6.1.0) is out.
