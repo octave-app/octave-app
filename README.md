@@ -1,9 +1,8 @@
-octave-app
-============
+# README – octave-app
 
 The [Octave.app](https://octave-app.org) distribution. See [our web site](https://octave-app.org) for info.
 
-This repo contains the releases of Octave.app.
+This repo hosts the releases of Octave.app, in [its GitHub Releases](https://github.com/octave-app/octave-app/releases).
 
 The `bundle_octave` tool used to create these releases is over in the [octave-app-bundler repo](https://github.com/octave-app/octave-app-bundler).
 
