@@ -2,7 +2,7 @@
 
 ## Terminology
 
-* AS – Apple Silicon
+* AS – Apple Silicon (the CPU architecture for the new M1/M2/etc chips from 2020-ish).
 
 ## General History
 
