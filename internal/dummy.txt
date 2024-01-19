@@ -2,3 +2,6 @@
 
 This is a dummy text file that you can make changes to in order to get content for a distinct commit, if you need one in order to create a tag for a GitHub release.
 
+Here's dummy changes for:
+
+* 8.4.0_alpha3
