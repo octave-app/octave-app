@@ -6,3 +6,4 @@ Here's dummy changes for:
 
 * 8.4.0_alpha3
 * 8.4.0_alpha4
+* 8.4.0_beta1
