@@ -12,3 +12,4 @@ Here's dummy changes for:
 * 8.4.0_RC1
 * 9.1.0_beta1
 * 8.4.0
+* 9.1.0_beta2
