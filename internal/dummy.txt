@@ -16,3 +16,4 @@ Here's dummy changes for:
 * 9.1.0_uploadtest1
 * 9.1.0_beta3
 * 9.1.0_beta4
+* 9.2.0_beta1
