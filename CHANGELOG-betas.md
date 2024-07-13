@@ -11,7 +11,7 @@ After downloading the DMG, before opening it (double-clicking it) to do the inst
 
 Since 9.2.0 beta1:
 
-* All the changes in 9.1.0 beta4 and maybe beta3
+* All the changes in [9.1.0 beta4](https://github.com/octave-app/octave-app/releases/tag/v9.1.0_beta4) and maybe beta3.
 
 ## 9.1 beta5 (2024-07-13)
 
