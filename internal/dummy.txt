@@ -18,3 +18,4 @@ Here's dummy changes for:
 * 9.1.0_beta4
 * 9.2.0_beta1
 * 9.1_beta5
+* 9.2_beta2
