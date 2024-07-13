@@ -7,13 +7,13 @@ TL;DR: Use `xattr -c` to un-quarantine the DMG before opening it.
 After downloading the DMG, before opening it (double-clicking it) to do the installation, you must first "un-quarantine" it. Open Terminal and run `xattr -c ~/Downloads/Octave-*.dmg`. Then you can double-click the DMG file and proceed to install it as usual. If you don't do this extra `xattr -c` step, it will probably just give you an "app is damaged" error instead of launching when you try to run it from /Applications. Sorry; working on fixing this, but not super hopeful. See [#244 – App "damaged" for GitHub downloads](https://github.com/octave-app/octave-app/issues/244).
 
 
-## 9.2 beta2
+## 9.2 beta2 (unreleased)
 
 Since 9.2.0 beta1:
 
 * All the changes in 9.1.0 beta4 and maybe beta3
 
-## 9.1 beta5
+## 9.1 beta5 (2024-07-13)
 
 Since 9.1.0 beta4:
 
