@@ -24,7 +24,7 @@ The releases in this file are arranged in chronological order. This means some v
 
 ## 9.2 (unreleased)
 
-* Octave 9.2.0.
+* Octave 9.2.0. [#288](https://github.com/octave-app/octave-app/issues/288)
 
 ## 9.1 (unreleased)
 
@@ -34,7 +34,7 @@ The releases in this file are arranged in chronological order. This means some v
 * Built on macOS 12 instead of 14, for better compatibility across OS versions.
 * Fix inflated app size due to accidentally-retained build-time-only dependencies like versioned llvm package. [#277](https://github.com/octave-app/octave-app/issues/277)
 * Have `pkg` custom install location use release suffixes like "_beta1".
-* Fix some DLL linkage issues with "spuriously relocatable" bottles.
+* Fix some DLL linkage issues with "spuriously relocatable" bottles. [#274](https://github.com/octave-app/octave-app/issues/274)
 * App launcher script refinements
   * Remove use of `logger`, quote filenames in open action, remove gnuplot stuff.
 * `diagnostic_dump` changes
@@ -47,19 +47,19 @@ The releases in this file are arranged in chronological order. This means some v
     * Have output file name include date, host, octapp version, etc., add options.
 * Add plain `octave` command link to the internal `usr/bin`.
 * Bundled package changes
-  * Add gnu-units package, to support miscellaneous OF package.
-  * Add ipopt package, to support building mexIPOPT.
+  * Add gnu-units package, to support miscellaneous OF package. [#160](https://github.com/octave-app/octave-app/issues/160)
+  * Add ipopt package, to support building mexIPOPT. [#280](https://github.com/octave-app/octave-app/issues/280)
   * Drop librsvg package, to reduce app size.
 
 
 ## 8.4.0 (2024-05-02)
 
-* Octave 8.4.0.
+* Octave 8.4.0. [#243](https://github.com/octave-app/octave-app/issues/243)
 * First 8.x (or even 7.x) release.
 * Drop gnuplot graphics back-end.
-* Add native Apple Silicon support, as a separate build and installer.
-* Include netcdf package, for OF packages that need it.
-* Reduce app size by pruning build-time-only dependencies like rust and llvm.
-* Drop Python 3.9 and 3.10 support.
+* Add native Apple Silicon support, as a separate build and installer. [#205](https://github.com/octave-app/octave-app/issues/205)
+* Include netcdf package, for OF packages that need it. [#221](https://github.com/octave-app/octave-app/issues/221)
+* Reduce app size by pruning build-time-only dependencies like rust and llvm. [#248](https://github.com/octave-app/octave-app/issues/248)
+* Drop Python 3.9 and 3.10 support. [#247](https://github.com/octave-app/octave-app/issues/247)
 * Adjust app bundle name, including prerelease indicators in the name.
 * Move `octave_app_diagnostic_dump` tool to package-qualified `octapp.diagnostic_dump`.
