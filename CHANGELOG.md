@@ -10,26 +10,38 @@ This changelog file was added late in the project's history, in 2023, and there 
 
 The releases in this file are arranged in chronological order. This means some version numbers may be out of order, because we sometimes do "update" releases to older-Octave-version releases, and sometimes Octave itself makes patch releases to older minor or major Octave versions. This file is human-readable, not intended to be machine-parseable, and items for previous releases may be retroactively reformatted or revised. The diffs or commit history to this file do not mean anything in particular.
 
-## 9.2.0 (unreleased)
+## 8.4 update 1 (unreleased)
+
+* Still Octave 8.4.0.
+* Fix inflated app size due to accidentally-retained build-time-only dependencies like versioned llvm package. [#277](https://github.com/octave-app/octave-app/issues/277)
+* Built on macOS 12 instead of macOS 14 for greater compatibility.
+* Move `octave_app_diagnostic_dump` function to namespaced `octapp.diagnostic_dump`.
+* Fix `octapp.diagnostic_dump` breakage due to syntax errors from previous code style update. [#285](https://github.com/octave-app/octave-app/issues/285)
+* Expand and fix up `octapp.diagnostic_dump`. [#286](https://github.com/octave-app/octave-app/issues/286)
+* Switch to two-part "x.y" instead of "x.y.z" version labels when the ".z" part is ".0". [#287](https://github.com/octave-app/octave-app/issues/287)
+
+(These are mostly backported changes from 9.1.)
+
+## 9.2 (unreleased)
 
 * Octave 9.2.0.
 
 ## 9.1 (unreleased)
 
-* Octave 9.1.0.
-* Use Qt 6 instead of Qt 5.
-* Use 2-part "x.y" version label like "9.1", not "x.y.z", for ".0" releases.
+* Octave 9.1.0. [#270](https://github.com/octave-app/octave-app/issues/270)
+* Use Qt 6 instead of Qt 5. [#262](https://github.com/octave-app/octave-app/issues/262)
+* Use 2-part "x.y" version label like "9.1", not "x.y.z", for ".0" releases. [#287](https://github.com/octave-app/octave-app/issues/287)
 * Built on macOS 12 instead of 14, for better compatibility across OS versions.
-* Fix inflated app size due to accidentally-retained build-time-only dependencies like versioned llvm package.
+* Fix inflated app size due to accidentally-retained build-time-only dependencies like versioned llvm package. [#277](https://github.com/octave-app/octave-app/issues/277)
 * Have `pkg` custom install location use release suffixes like "_beta1".
 * Fix some DLL linkage issues with "spuriously relocatable" bottles.
 * App launcher script refinements
   * Remove use of `logger`, quote filenames in open action, remove gnuplot stuff.
 * `diagnostic_dump` changes
   * Move `octave_app_diagnostic_dump` function to namespaced `octapp.diagnostic_dump`.
-  * Fix `diagnostic_dump` syntax errors from GNU Octave code style conversion.
+  * Fix `diagnostic_dump` syntax errors from GNU Octave code style conversion. [#285](https://github.com/octave-app/octave-app/issues/285)
     * The function was completely broken before this.
-  * `diagnostic_dump` enhancements
+  * `diagnostic_dump` enhancements [#286](https://github.com/octave-app/octave-app/issues/286)
     * Handle running from non-octapp installation, show full root path.
     * Show Xcode & CLT versions, expand displayed mkoctfile vars.
     * Have output file name include date, host, octapp version, etc., add options.
@@ -38,6 +50,7 @@ The releases in this file are arranged in chronological order. This means some v
   * Add gnu-units package, to support miscellaneous OF package.
   * Add ipopt package, to support building mexIPOPT.
   * Drop librsvg package, to reduce app size.
+
 
 ## 8.4.0 (2024-05-02)
 
