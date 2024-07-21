@@ -51,7 +51,6 @@ The releases in this file are arranged in chronological order. This means some v
   * Add ipopt package, to support building mexIPOPT. [#280](https://github.com/octave-app/octave-app/issues/280)
   * Drop librsvg package, to reduce app size.
 
-
 ## 8.4.0 (2024-05-02)
 
 * Octave 8.4.0. [#243](https://github.com/octave-app/octave-app/issues/243)
