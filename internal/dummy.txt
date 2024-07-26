@@ -22,3 +22,4 @@ Here's dummy changes for:
 * 9.1_RC1
 * 9.2_RC1
 * 9.1
+* 9.2
