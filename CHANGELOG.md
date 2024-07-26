@@ -22,11 +22,11 @@ The releases in this file are arranged in chronological order. This means some v
 
 (These are mostly backported changes from 9.1.)
 
-## 9.2 (unreleased)
+## 9.2 (2024-07-25)
 
 * Octave 9.2.0. [#288](https://github.com/octave-app/octave-app/issues/288)
 
-## 9.1 (unreleased)
+## 9.1 (2024-07-25)
 
 * Octave 9.1.0. [#270](https://github.com/octave-app/octave-app/issues/270)
 * Use Qt 6 instead of Qt 5. [#262](https://github.com/octave-app/octave-app/issues/262)
@@ -50,6 +50,7 @@ The releases in this file are arranged in chronological order. This means some v
   * Add gnu-units package, to support miscellaneous OF package. [#160](https://github.com/octave-app/octave-app/issues/160)
   * Add ipopt package, to support building mexIPOPT. [#280](https://github.com/octave-app/octave-app/issues/280)
   * Drop librsvg package, to reduce app size.
+* More metadata about the build inside the app.
 
 ## 8.4.0 (2024-05-02)
 
